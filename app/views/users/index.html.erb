@@ -1,10 +1,9 @@
 <% provide(:title, "Users") %>
-<%= render 'layouts/header' %> 
 <p id="notice"><%= notice %></p>
 
 <h1>Users</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Name</th>
@@ -26,6 +25,4 @@
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'New User', new_user_path %>
+<a class="btn btn-default active" href="<%= new_user_path %>">New User</a>
