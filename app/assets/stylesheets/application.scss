@@ -14,8 +14,7 @@
  *= require_self
  *= require bxslider
  */
- body{
- 	width: 1000px;
- 	margin: 0 auto;
- }
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 
