@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testapp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <%= render 'layouts/header' %> 
+	<div id="promo">
+		<ul class="bxslider">
+		  <li><img src="images/promo1.jpg" alt="Promo1"></li>
+		  <li><img src="images/promo2.jpg" alt="Promo2"></li>
+		  <li><img src="images/promo3.jpg" alt="Promo3"></li>
+		</ul>
+	</div>
+    <%= yield %>
+  </body>
+</html>
