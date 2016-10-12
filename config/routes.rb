@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'users/index'
+
+  get 'users/new'
+
+  get  '/signup',  to: 'users#new'
+
   get 'home/index'
 
   resources :microposts

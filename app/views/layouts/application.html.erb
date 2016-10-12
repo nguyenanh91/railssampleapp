@@ -9,16 +9,21 @@
   </head>
 
   <body> 
- 	  <div class="container">
-      <%= render 'layouts/header' %>
-    	<%= yield %>
-    </div>
+    <%= render 'layouts/header' %>
+    <%= yield %>
   </body>
   <script type="text/javascript">
   $(document).ready(function(){
-    $('.bxslider').bxSlider({
+    $('#promo .bxslider').bxSlider({
       auto:  true,
       adaptiveHeight: false
+    });
+    $('#bottom-promo .bxslider').bxSlider({
+      auto:  true,
+      controls: false,
+      pager: false,
+      pause: 6000,
+      adaptiveHeight: true
     });
   });
   </script>
