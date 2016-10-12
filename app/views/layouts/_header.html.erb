@@ -1,12 +1,16 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Rails Test App</a>
+<div class="container">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="<%= root_path %>">Rails Test App</a>
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Help", '#' %></li>
+        <li><%= link_to "Login", '#' %></li>
+        <li><%= link_to "Users", users_path %></li>
+        <li><%= link_to "Posts", microposts_path %></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="page-home"><a href="/home/index">Home</a></li>
-      <li class="page-users"><a href="/users">Users</a></li>
-      <li class="page-posts"><a href="/microposts">Posts</a></li>
-    </ul>
-  </div>
-</nav>
+  </nav>
+</div>

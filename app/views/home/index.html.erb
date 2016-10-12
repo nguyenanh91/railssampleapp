@@ -1,10 +1,37 @@
 <% provide(:title, "Home") %>
+<div class="container">
 	<div id="promo">
-		<ul class="bxslider">
-		  <li><img src="/images/promo1.jpg" alt="Promo1"></li>
-		  <li><img src="/images/promo2.jpg" alt="Promo2"></li>
-		  <li><img src="/images/promo3.jpg" alt="Promo3"></li>
-		</ul>
+		<div class="row">
+			<div class="col-md-7">
+				<ul class="bxslider">
+				  <li><img src="/images/promo1.jpg" alt="Promo1"></li>
+				  <li><img src="/images/promo2.jpg" alt="Promo2"></li>
+				  <li><img src="/images/promo3.jpg" alt="Promo3"></li>
+				</ul>
+			</div>
+			<div class="col-md-5">
+				<center><h2>Welcome to the sample App</h2>
+				<p>This is the home page for <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application</p>
+				<br>
+				<p><%= link_to image_tag("rails.png", alt: "Rails logo", height: "100", width: "auto"),
+	            'http://rubyonrails.org/' %></p>
+	            <br>
+	            <p><%= link_to "Sign up now!", new_user_path, class: "btn btn-lg btn-default" %></p>
+	            </center>
+			</div>
+		</div>
 	</div>
-    <%= yield %>
+</div>
+
+<div id="bottom-promo" class="parallax">
+	<div class="apex-dn"></div>
+	<ul class="bxslider">
+		<li><p>Rails is the most well thought-out web development framework I’ve ever used. And that’s in a decade of doing web applications for a living. I’ve built my own frameworks, helped develop the Servlet API, and have created more than a few web servers from scratch. Nobody has done it like this before.</p><span class="author pull-right clear">James Duncan Davidson</span>
+		<d</li>
+		<li><p>Ruby on Rails is a breakthrough in lowering the barriers of entry to programming. Powerful web applications that formerly might have taken weeks or months to develop can be produced in a matter of days.</p><span class="author pull-right clear">Tim O’Reilly</span></li>
+		<li><p>Ruby on Rails…is both revolutionary as a language as well as a framework.</p><span class="author pull-right clear">Klaus-Michael Vogelberg</span></li>
+	</ul>
+</div>
+<%= yield %>
+   
 
