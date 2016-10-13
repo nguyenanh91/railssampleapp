@@ -164,11 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   bcrypt (= 3.1.11)
-=======
-  bcrypt (~> 3.1.7)
->>>>>>> rails-flavored-ruby
   bootstrap-sass
   bxslider-rails
   byebug
