@@ -20,4 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  WELCOME_TO_SAMPLE_APP: "Welcome to the sample App"
+  HOME_PAGE_FOR_SAMPLE_APP: "This is the home page for Ruby on Rails Tutorial sample application"
+  SIGNUP_NOW: "Signup Now!"
