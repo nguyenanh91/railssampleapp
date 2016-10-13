@@ -10,11 +10,14 @@
 
   <body> 
     <%= render 'layouts/header' %>
+<<<<<<< HEAD
     <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
     </div>
+=======
+>>>>>>> rails-flavored-ruby
     <%= yield %>
   </body>
   <script type="text/javascript">
