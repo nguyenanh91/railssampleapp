@@ -1,0 +1,51 @@
+body {
+  padding-top: 80px;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.parallax {
+  background-image: url("/images/bg.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apex-dn {
+  width: 0px;
+  height: 0px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 30px solid #fff;
+  margin: 0 auto;
+}
+
+#bottom-promo .bx-wrapper {
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border: none;
+  background: rgba(0,0,0,0.5);
+  width: 50%;
+  top: 35%;
+  padding: 20px;
+}
+
+#bottom-promo .bxslider li p {
+  font-size: 20px;
+  line-height: 26px;
+  color:  #fff;
+}
+
+#bottom-promo .bxslider li .author {
+  font-size: 20px;
+  line-height: 26px;
+  font-style: italic;
+  font-weight: bold;
+  color:  #a6a6a6;
+}
