@@ -23,3 +23,15 @@ en:
   WELCOME_TO_SAMPLE_APP: "Welcome to the sample App"
   HOME_PAGE_FOR_SAMPLE_APP: "This is the home page for Ruby on Rails Tutorial sample application"
   SIGNUP_NOW: "Signup Now!"
+  CREATE_MY_ACCOUNT: "Create my account"
+
+  HOME: "Home"
+  HELP: "Help"
+  LOGIN: "Login"
+  USERS: "Users"
+  ACCOUNT: "Account"
+  PROFILE: "Profile"
+  SETTINGS: "Settings"
+  LOGOUT: "Logout"
+
+  INVALID_LOGIN: "Invalid email/password combination"

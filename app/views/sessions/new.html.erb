@@ -1,4 +1,4 @@
-<% provide(:title, "Log in") %>
+<% provide :title, t('LOGIN') %>
 <div class="container">
 	<center><h1>Log in</h1></center>
 	<div class="row">
@@ -16,7 +16,7 @@
 	      <%= f.submit "Log in", class: "btn btn-lg btn-primary full-width" %>
 	    <% end %>
 
-	    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
+	    <p>New user? <%= link_to t('SIGNUP_NOW'), signup_path %></p>
 	  </div>
 	</div>
 </div>
